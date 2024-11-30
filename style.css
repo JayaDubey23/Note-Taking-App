@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;;
+    width: 100%;;
+    background-image: linear-gradient(to bottom right, rgb(211, 208, 230) , rgb(12, 1, 11));
+    color: rgb(148, 20, 160);
+    padding-top: 4%;
+    padding-left: 10%;
+    border: 2px solid black;
+}
+.container h1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.container button img{
+    margin-right: 10px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd , #571094);
+    color: #fff;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+/* media query selector*/
+/* Default styles for small screens */
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* For tablets and medium screens */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .input-box {
+        max-width: 400px;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 1025px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    .container button {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    .input-box {
+        max-width: 500px;
+    }
+}
+
+.input-box img{
+    width: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+
+}
+
+/* media query selector*/
+/* Default styles for small screens */
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* For tablets and medium screens */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .container {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .container h1 {
+        font-size: 24px;
+    }
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .input-box {
+        max-width: 400px;
+    }
+}
+
+/* For larger screens */
+@media (min-width: 1025px) {
+    .container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .container h1 {
+        font-size: 30px;
+    }
+    .container button {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+    .input-box {
+        max-width: 500px;
+    }
+}
+
+
+
+
