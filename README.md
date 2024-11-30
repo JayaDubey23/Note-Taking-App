@@ -1,8 +1,12 @@
-**Note-Taking App Documentation
+**Note-Taking App Documentation**
+
+
 **Overview**
 This documentation provides an overview and explanation of the Note-Taking App, including its functionality, structure, and usage. The app allows users to create, edit, and delete notes. Notes are stored in the browser's local storage, enabling persistence across page refreshes.
 
-Project Structure
+
+
+**Project Structure**
 HTML (index.html)
 The HTML file defines the structure of the note-taking app.
 Key Elements:
@@ -19,7 +23,7 @@ Each note (.input-box) has a defined width, height, and delete icon.
 JavaScript (script.js)
 The JavaScript file contains the logic for creating, editing, deleting, and persisting notes.
 
-Features
+**Features**
 1. Create Notes
 Users can create new notes by clicking the "Create Notes" button.
 Each note is editable and has a delete button.
